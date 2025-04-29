@@ -1,5 +1,6 @@
 # System Architecture Overview
-This project is a microservices-based video-to-audio conversion platform. Users can upload videos, which are then converted to MP3 audio files and made available for download. Notifications are sent upon completion. The entire microservices architecture is deployed on an AWS EKS (Elastic Kubernetes Service) Cluster for scalability and orchestration.
+This project is a microservices-based video-to-audio conversion platform. Users can upload videos, which are then converted to MP3 audio files and made available for download. Notifications are sent upon completion. The entire microservices architecture is deployed on an AWS EKS (Elastic Kubernetes Service) Cluster for scalability and orchestration.  
+Helm charts were used to define, install, and manage Kubernetes applications. They act like package managers (similar to apt for Ubuntu or npm for Node.js) but for Kubernetes.
 
 ![pic](ProjectArchitecture.png)
 
