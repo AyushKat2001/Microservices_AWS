@@ -1,5 +1,5 @@
 # System Architecture Overview
-This project is a microservices-based video-to-audio conversion platform. Users can upload videos, which are then converted to MP3 audio files and made available for download. Notifications are sent upon completion.
+This project is a microservices-based video-to-audio conversion platform. Users can upload videos, which are then converted to MP3 audio files and made available for download. Notifications are sent upon completion. The entire microservices architecture is deployed on an AWS EKS (Elastic Kubernetes Service) Cluster for scalability and orchestration.
 
 ![pic](ProjectArchitecture.png)
 
